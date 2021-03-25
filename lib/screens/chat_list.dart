@@ -8,6 +8,12 @@ class ChatList extends StatefulWidget {
 class _ChatListState extends State<ChatList> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){},
+        backgroundColor: Colors.green,
+        child: Icon(Icons.chat,color: Colors.white,),
+      ),
+    );
   }
 }
