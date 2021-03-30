@@ -8,6 +8,34 @@ class Status extends StatefulWidget {
 class _StatusState extends State<Status> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Container(),
+      floatingActionButton: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        children: [
+          FloatingActionButton(
+            backgroundColor: Colors.black54,
+            child: Icon(
+              Icons.create,
+            ),
+            onPressed: () {
+              //...
+            },
+            heroTag: null,
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          FloatingActionButton(
+            backgroundColor: Colors.green,
+            child: Icon(
+                Icons.add_call
+            ),
+            onPressed: () {},
+            heroTag: null,
+          )
+        ]
+    )
+    );
   }
 }

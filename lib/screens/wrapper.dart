@@ -17,7 +17,7 @@ class _WrapperState extends State<Wrapper> {
         initialIndex: 1,
         child: Scaffold(
           appBar: AppBar(
-            backgroundColor: Colors.black54,
+            backgroundColor: Colors.black87,
             actions: <Widget>[
               Icon(Icons.search),
               Icon(Icons.settings)
